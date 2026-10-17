@@ -36,6 +36,34 @@ PureShelf, Flutter ile geliştirilmiş, eğitim amaçlı bir mini kozmetik ve ci
 ![Shopping Cart](screenshots/screenshotscart.png)
 
 
+Pureshelf/
+├── android/
+├── assets/
+│   ├── data/
+│   │   └── products.json
+│   └── images/
+├── lib/
+│   ├── data/
+│   │   ├── cart_service.dart
+│   │   └── product_service.dart
+│   ├── models/
+│   │   └── product.dart
+│   ├── screens/
+│   │   ├── cart_screen.dart
+│   │   ├── home_screen.dart
+│   │   ├── product_detail_screen.dart
+│   │   └── product_list_screen.dart
+│   ├── widgets/
+│   │   ├── product_card.dart
+│   │   └── product_image.dart
+│   └── main.dart
+├── screenshots/
+├── test/
+├── .gitignore
+├── pubspec.lock
+├── pubspec.yaml
+└── README.md
+
 ## Kullanılan Teknolojiler
 
 - Flutter SDK
@@ -45,6 +73,56 @@ PureShelf, Flutter ile geliştirilmiş, eğitim amaçlı bir mini kozmetik ve ci
 - Android Studio ve Android Emulator
 
 Projede ek Flutter paketi kullanılmamıştır.
+
+## Kurulum ve Çalıştırma
+
+### Gereksinimler
+
+- Flutter SDK 3.47.7
+- Dart SDK 3.13.5
+- Android Studio (Android Emulator için)
+- Visual Studio Code
+- Git
+
+### Projeyi İndirme
+
+Terminali açın ve aşağıdaki komutları sırasıyla çalıştırın:
+
+```bash
+git clone https://github.com/elifsudetopcu/Pureshelf.git
+cd Pureshelf
+```
+
+### Bağımlılıkları Yükleme
+
+Flutter bağımlılıklarını yüklemek için:
+
+```bash
+flutter pub get
+```
+
+Flutter kurulumunu kontrol etmek için:
+
+```bash
+flutter doctor
+```
+
+### Uygulamayı Çalıştırma
+
+Android Studio üzerinden bir Android Emulator başlatın. Ardından proje klasöründe şu komutu çalıştırın:
+
+```bash
+flutter devices
+flutter run
+```
+
+Uygulamayı belirli bir cihazda çalıştırmak için `flutter devices` çıktısında görünen cihaz kimliğini kullanabilirsiniz:
+
+```bash
+flutter run -d CIHAZ_KIMLIGI
+```
+
+**Not:** `CIHAZ_KIMLIGI` yerine kendi cihazınızın kimliğini yazın.
 
 
 ### Flutter Sürümü
