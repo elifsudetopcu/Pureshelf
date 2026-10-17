@@ -17,6 +17,25 @@ PureShelf, Flutter ile geliştirilmiş, eğitim amaçlı bir mini kozmetik ve ci
 - **Sepet simülasyonu:** Ürün ekleme, adet değiştirme, ürün silme ve toplam tutarı hesaplama.
 - **State yönetimi:** Temel durum güncellemeleri için setState kullanımı.
 
+
+## Screenshots
+
+### Home Screen
+![Home Screen](screenshots/screenshotshome.png)
+
+### Product List
+![Product List](screenshots/screenshotslist.png)
+
+### Product List — All Products
+![All Products](screenshots/screenshotslist_all.png)
+
+### Product Detail
+![Product Detail](screenshots/screenshotsdetail.png)
+
+### Shopping Cart
+![Shopping Cart](screenshots/screenshotscart.png)
+
+
 ## Kullanılan Teknolojiler
 
 - Flutter SDK
