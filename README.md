@@ -17,7 +17,6 @@ PureShelf, Flutter ile geliştirilmiş, eğitim amaçlı bir mini kozmetik ve ci
 - **Sepet simülasyonu:** Ürün ekleme, adet değiştirme, ürün silme ve toplam tutarı hesaplama.
 - **State yönetimi:** Temel durum güncellemeleri için setState kullanımı.
 
-
 ## Screenshots
 
 ### Home Screen
@@ -35,7 +34,48 @@ PureShelf, Flutter ile geliştirilmiş, eğitim amaçlı bir mini kozmetik ve ci
 ### Shopping Cart
 ![Shopping Cart](screenshots/screenshotscart.png)
 
+## Kullanılan Teknolojiler
 
+- Flutter SDK
+- Dart
+- Material Design (`material.dart`)
+- Visual Studio Code
+- Android Studio ve Android Emulator
+
+Projede ek Flutter paketi kullanılmamıştır.
+
+## Gereksinimler
+
+- Flutter SDK 3.47.7
+- Dart SDK 3.13.5
+- Android Studio (Android Emulator için)
+- Visual Studio Code
+- Git
+
+## Kurulum ve Çalıştırma
+
+1. Projeyi indir:
+```bash
+   git clone https://github.com/elifsudetopcu/Pureshelf.git
+   cd Pureshelf
+```
+2. Android Studio'da bir sanal telefon (emülatör) başlat.
+3. Cihazın göründüğünü kontrol et:
+```bash
+   flutter devices
+```
+4. Bağımlılıkları yükle:
+```bash
+   flutter pub get
+```
+5. Uygulamayı çalıştır:
+```bash
+   flutter run
+```
+
+## Klasör Yapısı
+
+```
 Pureshelf/
 ├── android/
 ├── assets/
@@ -50,96 +90,4 @@ Pureshelf/
 │   │   └── product.dart
 │   ├── screens/
 │   │   ├── cart_screen.dart
-│   │   ├── home_screen.dart
-│   │   ├── product_detail_screen.dart
-│   │   └── product_list_screen.dart
-│   ├── widgets/
-│   │   ├── product_card.dart
-│   │   └── product_image.dart
-│   └── main.dart
-├── screenshots/
-├── test/
-├── .gitignore
-├── pubspec.lock
-├── pubspec.yaml
-└── README.md
-
-## Kullanılan Teknolojiler
-
-- Flutter SDK
-- Dart
-- Material Design (`material.dart`)
-- Visual Studio Code
-- Android Studio ve Android Emulator
-
-Projede ek Flutter paketi kullanılmamıştır.
-
-## Kurulum ve Çalıştırma
-
-### Gereksinimler
-
-- Flutter SDK 3.47.7
-- Dart SDK 3.13.5
-- Android Studio (Android Emulator için)
-- Visual Studio Code
-- Git
-
-### Projeyi İndirme
-
-Terminali açın ve aşağıdaki komutları sırasıyla çalıştırın:
-
-```bash
-git clone https://github.com/elifsudetopcu/Pureshelf.git
-cd Pureshelf
-```
-
-### Bağımlılıkları Yükleme
-
-Flutter bağımlılıklarını yüklemek için:
-
-```bash
-flutter pub get
-```
-
-Flutter kurulumunu kontrol etmek için:
-
-```bash
-flutter doctor
-```
-
-### Uygulamayı Çalıştırma
-
-Android Studio üzerinden bir Android Emulator başlatın. Ardından proje klasöründe şu komutu çalıştırın:
-
-```bash
-flutter devices
-flutter run
-```
-
-Uygulamayı belirli bir cihazda çalıştırmak için `flutter devices` çıktısında görünen cihaz kimliğini kullanabilirsiniz:
-
-```bash
-flutter run -d CIHAZ_KIMLIGI
-```
-
-**Not:** `CIHAZ_KIMLIGI` yerine kendi cihazınızın kimliğini yazın.
-
-
-### Flutter Sürümü
-
-Bu proje aşağıdaki geliştirme araçlarıyla hazırlanmıştır:
-
-- **Flutter SDK:** 3.47.7
-- **Flutter Channel:** stable
-- **Dart SDK:** 3.13.5
-- **Flutter Framework Revision:** `abaf9c5237`
-- **Flutter Engine Revision:** `deb287481e`
-- **DevTools:** 2.60.0
-
-Projeyi çalıştırmadan önce Flutter kurulumunuzu kontrol edin:
-
-```bash
-flutter --version
-flutter doctor
-flutter pub get
-```
+│
