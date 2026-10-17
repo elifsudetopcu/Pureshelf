@@ -90,4 +90,36 @@ Pureshelf/
 │   │   └── product.dart
 │   ├── screens/
 │   │   ├── cart_screen.dart
-│
+│   │   ├── home_screen.dart
+│   │   ├── product_detail_screen.dart
+│   │   └── product_list_screen.dart
+│   ├── widgets/
+│   │   ├── product_card.dart
+│   │   └── product_image.dart
+│   └── main.dart
+├── screenshots/
+├── test/
+├── .gitignore
+├── pubspec.lock
+├── pubspec.yaml
+└── README.md
+```
+
+## Flutter Sürümü
+
+Bu proje aşağıdaki geliştirme araçlarıyla hazırlanmıştır:
+
+- **Flutter SDK:** 3.47.7
+- **Flutter Channel:** stable
+- **Dart SDK:** 3.13.5
+- **Flutter Framework Revision:** `abaf9c5237`
+- **Flutter Engine Revision:** `deb287481e`
+- **DevTools:** 2.60.0
+
+Projeyi çalıştırmadan önce Flutter kurulumunuzu kontrol edin:
+
+```bash
+flutter --version
+flutter doctor
+flutter pub get
+```
