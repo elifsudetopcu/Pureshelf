@@ -1,0 +1,66 @@
+[
+  {
+    "id": "p1",
+    "name": "Nazik Temizleme Jeli",
+    "category": "Temizleyici",
+    "price": 249.90,
+    "description": "Cildin dogal nemini koruyan, gunluk kullanima uygun yumusak temizleme jeli.",
+    "image": "assets/images/cleanser.png"
+  },
+  {
+    "id": "p2",
+    "name": "Hyaluronik Nem Serumu",
+    "category": "Serum",
+    "price": 429.00,
+    "description": "Cildi yogun sekilde nemlendiren, hafif dokulu hyaluronik asit serumu.",
+    "image": "assets/images/serum.png"
+  },
+  {
+    "id": "p3",
+    "name": "Gunluk Nemlendirici Krem",
+    "category": "Nemlendirici",
+    "price": 319.50,
+    "description": "Gun boyu nem saglayan, yagli his birakmayan hafif nemlendirici krem.",
+    "image": "assets/images/moisturizer.png"
+  },
+  {
+    "id": "p4",
+    "name": "SPF 50 Gunes Koruyucu",
+    "category": "Gunes Bakimi",
+    "price": 389.00,
+    "description": "Yuksek korumali, beyaz iz birakmayan gunluk yuz gunes kremi.",
+    "image": "assets/images/sunscreen.png"
+  },
+  {
+    "id": "p5",
+    "name": "Arindirici Kil Maskesi",
+    "category": "Maske",
+    "price": 279.00,
+    "description": "Gozenekleri temizlemeye yardimci olan, haftalik kullanim icin kil maskesi.",
+    "image": "assets/images/mask.png"
+  },
+  {
+    "id": "p6",
+    "name": "Aydinlatici C Vitamini Serumu",
+    "category": "Serum",
+    "price": 459.90,
+    "description": "Cilde canli bir gorunum kazandirmaya yardimci olan C vitamini serumu.",
+    "image": "assets/images/vitamin_c.png"
+  },
+  {
+    "id": "p7",
+    "name": "Yumusatici Yuz Tonigi",
+    "category": "Temizleyici",
+    "price": 199.00,
+    "description": "Temizlik sonrasi cildi dengeleyen, alkolsuz ve yumusak yuz tonigi.",
+    "image": "assets/images/toner.png"
+  },
+  {
+    "id": "p8",
+    "name": "Onarici Dudak Bakimi",
+    "category": "Nemlendirici",
+    "price": 129.00,
+    "description": "Kuruyan dudaklar icin besleyici ve koruyucu bakim balmi.",
+    "image": "assets/images/lip_balm.png"
+  }
+]
